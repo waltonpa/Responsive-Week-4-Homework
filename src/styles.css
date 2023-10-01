@@ -1,0 +1,110 @@
+:root {
+  --primary-color: #062b75;
+  --hover: #0742b9;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  background-image: url("../images/tn.jpg");
+  background-size: cover;
+}
+
+.navbar {
+  text-align: left;
+}
+
+.header {
+  margin: 60px auto;
+  color: var(--primary-color);
+  background: white;
+  padding: 5px 5px;
+  border-radius: 10px;
+  width: 95%;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.index-content {
+  background: white;
+  border-radius: 10px;
+  padding: 20px 5px;
+  margin: 5px auto;
+  width: 100%;
+}
+
+.selfie-pic {
+  width: 95%;
+  border-radius: 10px;
+}
+
+.aboutBtn {
+  background: var(--primary-color);
+  color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: 1px solid var(--primary-color);
+  box-shadow: rgb(63, 63, 63) 1px 1px 1px;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.aboutBtn:hover {
+  background: var(--hover);
+  color: white;
+}
+
+p {
+  font-size: 14px;
+  padding: 0px 15px;
+}
+
+.code-lang {
+  justify-content: space-evenly;
+}
+
+.lang {
+  background: var(--primary-color);
+  color: white;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.lang:hover {
+  background: var(--hover);
+}
+
+.logo {
+  width: 20px;
+  color: grey;
+}
+
+.woman-coding-pic {
+  width: 95%;
+  border-radius: 10px;
+}
+
+footer {
+  background: white;
+  border-radius: 10px;
+}
+
+@media (max-width: 500px) {
+  .selfie,
+  .woman-coding {
+    display: none;
+    margin: auto;
+  }
+
+  .about-me,
+  .works {
+    width: 95%;
+    left: 5px;
+  }
+}
